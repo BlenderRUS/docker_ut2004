@@ -23,6 +23,5 @@ services:
       - type: bind
         source: ./data/logs
         target: /srv/ut2004/logs
-        read_only: true
     restart: always
 ```
